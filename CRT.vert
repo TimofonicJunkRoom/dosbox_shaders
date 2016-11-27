@@ -113,8 +113,8 @@ void main()
         R = 2.5;                            // radius of curvature
         const vec2 angle = vec2(0.0, 0.01); // tilt angle in radians (behavior might be a bit wrong if both components are nonzero)
 //        cornersize = 0.03;                  // size of curved corners
-        cornersize = 0.02;                  // size of curved corners
-        cornersmooth = 1000.0;              // border smoothness parameter (decrease if borders are too aliased)
+        cornersize = 0.01;                  // size of curved corners
+        cornersmooth = 500.0;              // border smoothness parameter (decrease if borders are too aliased)
         
         // ----- END of parameters -----
 
